@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Facebook Profile Links Shortcut</title>
-<meta name="Description" content=""/>
-<meta name="keywords" content="" />
+<meta name="Description" content="Drag this button to your bookmarks bar. Click on the bookmark while on a facebook profile page to access the profile's links section"/>
+<meta name="keywords" content="facebook, no profile links button, no profile links tab, new facebook profile, facebook links bookmarklet" />
 <script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
 <style type="text/css">
 body { margin:0; padding:0; font-family:"lucida grande",tahoma,verdana,arial,sans-serif; font-size:11px;}
@@ -60,7 +60,7 @@ p,h1,h2,h3,h4,span,ul,li,a,object{outline-color:invert;outline-style:none;outlin
 		</div>
 		<div class="chat_line">
 			<div class="green"></div>
-			<p class="chat_content">Drag the button below <a href="" class="link_button"></a> to the bookmarks bar of your browser</p>
+			<p class="chat_content">Drag the button below <a href="javascript:(function(){ function find_friend_fb_profile_id() {var element = document.getElementById('profile_action_send_message');return element};function find_own_fb_profile_id() {var element = document.getElementById('profile_pic');if(element) {return element.parentNode;};};function find_fb_profile_id() {return find_friend_fb_profile_id() || find_own_fb_profile_id();};element = find_fb_profile_id();if(element) {var id = element.href.split('id=')[1];window.location = 'http://www.facebook.com/posted.php?id=' + id} else {alert('You cannot access the links on this page.');};})();" class="link_button" title="Drag this button to your bookmarks bar. Click on the bookmark while on a facebook profile page to access the profile's links section"></a> to the bookmarks bar of your browser.</p>
 		</div>
 		<div class="chat_line">
 			<div class="red"></div>
@@ -78,11 +78,15 @@ p,h1,h2,h3,h4,span,ul,li,a,object{outline-color:invert;outline-style:none;outlin
 		<div class="chat_line" style="border-bottom:none!important;">
 			<div class="red"></div>
 			<p class="chat_content">Works! Here's <a href="http://www.popeater.com/2010/11/29/justin-bieber-new-haircut/" title="This is a joke. We don't endorse Justin Bieber in any way. Please listen to Richie Hawtin!">Justin's new haircut!</a></p>
-		</div>		
+		</div>
+		<div class="chat_line">
+		  <div class="green"></div>
+		  <p class="chat_content">
+		</div>
 	</div>
 	<div class="bottom_empty"></div>
 	<div class="chat_name">
-		<p>Links Group</p>
+		<p>No Facebook Links Group</p>
 	</div>
 </div>
 </body>
