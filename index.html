@@ -29,7 +29,7 @@ p,h1,h2,h3,h4,span,ul,li,a,object{outline-color:invert;outline-style:none;outlin
 .chat_name{width:160px; border-right:solid 1px #777; height:25px; float:left; background:#fff;}
 .chat_name p{width:150px; margin:0 0 0 5px; float:left; border-top:solid 1px #ccc; font-size:11px; color:#333; font-weight:700; line-height:24px; height:24px;}
 .chat_content a{color:#3B5998;}
-.link_button{width:160px; height:22px; display:block; background:url(button.jpg); margin:5px 0;}
+.link_button{width:160px; height:22px; display:block; margin:5px 0;}
 </style>
 </head>
 <body>
@@ -60,7 +60,7 @@ p,h1,h2,h3,h4,span,ul,li,a,object{outline-color:invert;outline-style:none;outlin
 		</div>
 		<div class="chat_line">
 			<div class="green"></div>
-			<p class="chat_content">Drag the button below <a href="javascript:(function(){ function find_friend_fb_profile_id() {var element = document.getElementById('profile_action_send_message');return element};function find_own_fb_profile_id() {var element = document.getElementById('profile_pic');if(element) {return element.parentNode;};};function find_fb_profile_id() {return find_friend_fb_profile_id() || find_own_fb_profile_id();};element = find_fb_profile_id();if(element) {var id = element.href.split('id=')[1];window.location = 'http://www.facebook.com/posted.php?id=' + id} else {alert('You cannot access the links on this page.');};})();" class="link_button" title="Facebook Profile Links"></a> to the bookmarks bar of your browser.</p>
+			<p class="chat_content">Drag the button below <a href="javascript:(function(){ function find_friend_fb_profile_id() {var element = document.getElementById('profile_action_send_message');return element};function find_own_fb_profile_id() {var element = document.getElementById('profile_pic');if(element) {return element.parentNode;};};function find_fb_profile_id() {return find_friend_fb_profile_id() || find_own_fb_profile_id();};element = find_fb_profile_id();if(element) {var id = element.href.split('id=')[1];window.location = 'http://www.facebook.com/posted.php?id=' + id} else {alert('You cannot access the links on this page.');};})();" class="link_button" onclick="return false;"><img src="button.jpg" alt="FB Profile Links" /></a> to the bookmarks bar of your browser.</p>
 		</div>
 		<div class="chat_line">
 			<div class="red"></div>
