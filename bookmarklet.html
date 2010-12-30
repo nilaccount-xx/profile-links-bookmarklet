@@ -2,7 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Facebook Links - Bookmarklet</title>
+<meta name="Description" content=""/>
+<meta name="keywords" content="" />
 </head>
 <style>
 body { margin:0; padding:0; font-family:"lucida grande",tahoma,verdana,arial,sans-serif; font-size:11px;}
@@ -21,11 +23,12 @@ p,h1,h2,h3,h4,span,ul,li,a,object{outline-color:invert;outline-style:none;outlin
 .red{background:#c03d3d; float:left; width:32px; height:32px; }
 .green{background:#84ca5a; float:left; width:32px; height:32px; }
 .blue{background:#8698bb; float:left; width:32px; height:32px; }
-.chat_line{margin:3px 5px; border-top:solid 1px #eee; border-bottom:solid 1px #eee; padding:5px 0; width:248px; float:left;}
-.chat_content{float:left; margin:0 0 0 8px; width:208px; color:#333;}
+.chat_line{margin:3px 5px; border-top:solid 1px #eee; border-bottom:solid 1px #eee; padding:5px 0; width:230px; float:left;}
+.chat_content{float:left; margin:0 0 0 8px; width:190px; color:#333;}
 .bottom_empty{height:24px; width:109px; border-top:solid 1px #777; border-right:solid 1px #777; float:left;}
-.chat_name{width:149px; border-right:solid 1px #777; height:25px; float:left;}
+.chat_name{width:149px; border-right:solid 1px #777; height:25px; float:left; background:#fff;}
 .chat_name p{width:139px; margin:0 0 0 5px; float:left; border-top:solid 1px #ccc; font-size:11px; color:#333; font-weight:700; line-height:24px; height:24px;}
+.link_button{width:160px; height:22px; display:block; background:url(button.jpg); margin:5px 0 0 0;}
 </style>
 <body>
 <div class="chat">
@@ -40,25 +43,31 @@ p,h1,h2,h3,h4,span,ul,li,a,object{outline-color:invert;outline-style:none;outlin
 				<li class="green"></li>
 			</ul>
 		</div>
-		<div class="chat_line">
-			<div class="red"></div>
-			<p class="chat_content">Hey, where's the links tab / "see all links" button on your profile page?</p>
-		</div>
-		<div class="chat_line">
-			<div class="blue"></div>
-			<p class="chat_content">Don't know ...</p>
-		</div>
-		<div class="chat_line">
-			<div class="red"></div>
-			<p class="chat_content">Can't find that awesome kittens link</p>
-		</div>
-		<div class="chat_line">
-		  <div class="green"></div>
-			<p class="chat_content">You should this bookmarklet. Click it when you are on any profile page and it redirects ... !</p>
-		</div>
-		<div class="chat_line">
-		  <div class="green"></div>
-			<p class="chat_content">How to install ...</p>
+		<div style="height:400px; overflow-y:auto;">
+			<div class="chat_line">
+				<div class="red"></div>
+				<p class="chat_content">Hey, where's the links tab / "see all links" button on your profile page?</p>
+			</div>
+			<div class="chat_line">
+				<div class="blue"></div>
+				<p class="chat_content">Don't know ...</p>
+			</div>
+			<div class="chat_line">
+				<div class="red"></div>
+				<p class="chat_content">Can't find that awesome kittens link</p>
+			</div>
+			<div class="chat_line">
+				<div class="green"></div>
+				<p class="chat_content">You should this bookmarklet. Click it when you are on any profile page and it redirects ... !</p>
+			</div>
+			<div class="chat_line">
+				<div class="green"></div>
+				<p class="chat_content">How to install ...</p>
+			</div>
+			<div class="chat_line">
+				<div class="green"></div>
+				<p class="chat_content">How to install ... <a href="" class="link_button"></a></p>			
+			</div>
 		</div>
 	</div>
 	<div class="bottom_empty">
@@ -67,6 +76,5 @@ p,h1,h2,h3,h4,span,ul,li,a,object{outline-color:invert;outline-style:none;outlin
 		<p>Links Group</p>
 	</div>
 </div>
-
 </body>
 </html>
